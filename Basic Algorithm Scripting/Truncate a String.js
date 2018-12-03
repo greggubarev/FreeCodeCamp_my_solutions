@@ -22,8 +22,8 @@ truncateString("A-tisket a-tasket A green and yellow basket", 8);
 
 // Second solution:
 function truncateString(str, num) {
-  let temp = str.slice(0, num);
-  return (str.length <= num) ? str : temp + "...";
+  return (str.length <= num) ? str : str.slice(0, num) + "...";
 }
+
 
 truncateString("A-tisket a-tasket A green and yellow basket", 8);
