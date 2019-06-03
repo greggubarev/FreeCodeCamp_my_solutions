@@ -23,7 +23,7 @@ function golfScore(par, strokes) {
   // Only change code above this line
 }
 
-(Using Multiple Conditional (Ternary) Operators)
+// Using Multiple Conditional (Ternary) Operators
 
     function golfScore(par, strokes) {
       return (strokes == 1) ? names[0] : 
