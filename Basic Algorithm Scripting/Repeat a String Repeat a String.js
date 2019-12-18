@@ -37,3 +37,17 @@ function repeatStringNumTimes(str, num) {
 }
 
 repeatStringNumTimes("abc", 3);
+
+
+//Last solution xd
+
+function repeatStringNumTimes(str, num) {
+  let repeatStr = "";
+  if (num > 0) {
+    for ( let i = 0; i < num; i++) {
+      repeatStr += str;
+    }
+  }
+  return repeatStr;
+}
+console.log(repeatStringNumTimes("abc", 3));
