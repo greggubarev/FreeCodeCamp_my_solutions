@@ -14,4 +14,9 @@ function booWho(bool) {
   return false;
 }
 
+
+// Second solution
+
+const booWho = (bool) => (bool === true || bool === false) ? true : false;
+
 booWho(null);
