@@ -1,1 +1,1 @@
-1
+My solutions for FreeCodeCamp tasks
